@@ -1,9 +1,19 @@
 import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Homepage from "./pages/index";
 import Login from "./pages/login";
 
 function App() {
-  return <Login />;
+  return (
+    
+      <Routes>
+        <Route exact path="/" element={ <Homepage /> } />
+        <Route exact path="/login" element={ <Login /> } />
+      </Routes>
+    
+  ) 
+  
+
 }
 
 export default App;
