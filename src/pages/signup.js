@@ -1,3 +1,5 @@
+import { Outlet, Link } from "react-router-dom";
+
 function SignUp() {
   return (
     <div className="h-screen w-screen p-0 m-0  justify-center items-center flex">
@@ -45,10 +47,13 @@ function SignUp() {
               >
                 Signup
               </button>
-              <p className="pt-6 ">
-                Already have an account?
-                <span className="underline px-2 font-semibold">Login</span>
-              </p>
+              
+              <Link to="/login">
+                <p className="pt-6 ">
+                  Already have an account?
+                  <span className="underline px-2 font-semibold">Login</span>
+                </p>
+              </Link>
             </div>
           </form>
         </div>

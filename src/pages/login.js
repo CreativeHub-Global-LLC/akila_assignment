@@ -1,3 +1,5 @@
+import { Outlet, Link } from "react-router-dom";
+
 const Login = (props) => {
   return (
     <div className="h-screen w-screen p-0 m-0  justify-center items-center flex">
@@ -26,12 +28,12 @@ const Login = (props) => {
               />
 
               <button
-                className="text-white text-xl py-3 bg-[#F5A622] w-full  font-bold rounded-md mt-5"
-                href=""
-              >
+                className="text-white text-xl py-3 bg-[#F5A622] w-full  font-bold rounded-md mt-5">
                 Login
               </button>
-              <p className="pt-6 underline">create an account</p>
+              <Link to="/signup">
+                <p className="pt-6 underline">create an account</p>
+              </Link>
             </div>
           </form>
         </div>
