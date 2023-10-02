@@ -1,4 +1,4 @@
-function Login() {
+function Dashboard() {
   return (
     <div className="h-screen w-screen p-0 m-0  justify-center items-center flex">
       <div className="w-screen bg-[#0052A8] justify-center items-center flex flex-col py-10 h-full  ">
@@ -18,7 +18,7 @@ function Login() {
                 className="p-3 rounded-md my-3 outline-none text-black w-full"
               />
               <label className=" justify-start items-start flex text-lg font-semibold w-full">
-                Name
+                Helloooooooo
               </label>
               <input
                 placeholder="name"
@@ -41,4 +41,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default Dashboard;
