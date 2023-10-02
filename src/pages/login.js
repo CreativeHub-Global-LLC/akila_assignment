@@ -1,4 +1,4 @@
-function Login() {
+const Login = (props) => {
   return (
     <div className="h-screen w-screen p-0 m-0  justify-center items-center flex">
       <div className="w-screen bg-[#0052A8] justify-center items-center flex flex-col py-10 h-full  ">
