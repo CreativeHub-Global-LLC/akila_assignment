@@ -8,18 +8,14 @@ import Dashboard from "./pages/dashboard";
 
 function App() {
   return (
-    
-      <Routes>
-        <Route exact path="/" element={ <Homepage /> } />
-        <Route exact path="/login" element={ <Login /> } />
-        <Route exact path="/signup" element={ <SignUp /> } />
-        <Route exact path="/welcome" element={ <Welcome /> } />
-        <Route exact path="/dashboard" element={ <Dashboard /> } />
-      </Routes>
-    
-  ) 
-  
-
+    <Routes>
+      <Route exact path="/" element={<Homepage />} />
+      <Route exact path="/login" element={<Login />} />
+      <Route exact path="/signup" element={<SignUp />} />
+      <Route exact path="/welcome" element={<Welcome />} />
+      <Route exact path="/dashboard" element={<Dashboard />} />
+    </Routes>
+  );
 }
 
 export default App;

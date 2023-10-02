@@ -12,7 +12,7 @@ const Homepage = (props) => {
           Neque porro quisquam est qui dolorem ipsum
         </h3>
         <div className="w-1/2 justify-start py-5">
-          <Link to="/login">
+          <Link to="/welcome">
             <button
               className="text-white text-xl py-3 bg-[#F5A622] px-8  font-bold rounded-full">
                           
@@ -22,13 +22,9 @@ const Homepage = (props) => {
           </Link>
         </div>
       </div>
-      <div className="h-screen w-1/2 p-0 m-0 justfy-center items-center flex overflow-hidden">
-        <img src="../assets/images/homepageImage.jpg" />
       </div>
-    </div>
-
     </>
   );
-}
+};
 
 export default Homepage;
